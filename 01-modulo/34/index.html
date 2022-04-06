@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 21</title>
+    <style>
+        input[type=text]{
+            display: block;
+        }
+        input[type=button] {
+            display: inline;
+            margin: 10px;
+        }
+        input[type=reset] {
+            display: inline;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <form action="" class="form" method="get">
+        <label for="">Nome:</label>
+        <input type="text" name="nome" class="nome" id="nome">
+        <label for="">Sobrenome:</label>
+        <input type="text" name="sobrenome" class="sobrenome" id="sobrenome">
+        <label for="">Peso:</label>
+        <input type="text" name="Peso" class="peso" id="Peso">
+        <label for="">Altura</label>
+        <input type="text" name="autura" class="autura" id="autura">
+        <input type="reset" value="Limpar" class="limpar">
+        <input type="submit" value="Calcular" class="Calcular">
+    </form>
+    <div class="resultado">
+
+    </div>
+    <script src="Script.js"></script>
+</body>
+</html>

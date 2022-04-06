@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 21</title>
+</head>
+
+<body>
+
+    <script>
+
+        let texto = window.prompt("Digite seu nome!")
+
+        window.document.body.innerHTML += `Meu nome é ${texto} <br/>`
+        window.document.body.innerHTML += `Meu nome tem ${texto.length} <br/>`
+        window.document.body.innerHTML += `Segunda letra do nome ${texto[1]} <br/>`
+        window.document.body.innerHTML += `Qual o primeiro indice letra a ${texto.indexOf("a")} <br/>`
+        window.document.body.innerHTML += `Qual o Ultimo indice letra a ${texto.lastIndexOf("a")} <br/>`
+        window.document.body.innerHTML += `Quais as 3 ultimas palavras ${texto.slice(-3)} <br/>`
+        window.document.body.innerHTML += `Quantidade de palavras ${texto.split(" ")} <br/>`
+        window.document.body.innerHTML += `Nome em Mauscolo ${texto.toUpperCase()} <br/>`
+        window.document.body.innerHTML += `Nome em Minuscolo ${texto.toLowerCase()} <br/>`
+    </script>
+</body>
+
+</html>
