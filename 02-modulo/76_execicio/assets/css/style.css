@@ -1,0 +1,45 @@
+
+:root{
+    --primary-color: #eae7e4;
+    --segunda-color: #c0b4ab;
+}
+
+*{
+    box-sizing:border-box;
+    outline:0;
+    margin:0;
+    padding:0;
+}
+
+body{
+    background: var(--primary-color);
+}
+
+.container{
+    /* conteudo no meio da pagina */
+    margin: 0 auto;
+    padding:5px;
+    background: var(--segunda-color);
+}
+.container-calcular{
+    max-width: 640px;
+    /* conteudo no meio da pagina */
+    margin: 0 auto;
+    padding:5px;
+    background: var(--segunda-color);
+}
+
+
+input{
+    width: 100%;
+    /* margin: 5px; */
+    padding: 10px;  
+    text-align: right;
+}
+button{
+    width: 5em;
+    margin: 5px;
+    padding: 10px;
+}
+
+
